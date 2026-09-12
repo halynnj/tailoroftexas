@@ -47,6 +47,11 @@ a {
     font-weight: bold;
 }
 
+.logopic {
+    width: 80px;
+    height: auto;
+}
+
 .main-nav {
     display: flex;
     gap: 2rem;
@@ -69,6 +74,16 @@ a {
     padding: 120px 0;
     text-align: center;
     background-color: #f5f5f5;
+    color:white;
+    text-shadow: 2px 2px 2px #383838;
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-contact {
+    background-image: url('../images/contacthero.jpg');
 }
 
 .hero h1 {
@@ -79,6 +94,59 @@ a {
 .hero p {
     max-width: 600px;
     margin: 0 auto 2rem;
+}
+
+/* =========================
+   Text Body
+   ========================= */
+
+.text {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.text h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/* =========================
+   Split body for content
+   ========================= */
+
+.split-container {
+  display: flex;       /* Activates Flexbox layout */
+  width: 100%;         /* Spans the full width of the screen */
+  padding-bottom: 100px;
+}
+
+.half-column {
+  flex: 1;             /* Forces both columns to grow and take up equal space (50% each) */
+  padding: 20px;       /* Adds breathing room inside each text block */
+  box-sizing: border-box; /* Ensures padding doesn't break the 50/50 split width */
+}
+
+.right-half {
+    padding-right: 100px;
+}
+
+.left-half {
+    padding-top: 100px;
+}
+
+.left-content {
+    font-size: 1.2rem;
+    width: 70%;
+    margin-left: auto;
+    text-align: left;
+}
+
+.left-content a {
+    color: cornflowerblue;
+}
+
+.left-content a:hover {
+    text-decoration: underline;
 }
 
 
