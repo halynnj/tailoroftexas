@@ -1,9 +1,11 @@
 need images
 - hero images
+    - still need for others minus contact
 - tailor of texas logo
-- portfolio work
+    - MAKE ONE
 - other cute images
+- change footer color to be aesthetical
 
 google reviews section?
 
-make email and phone numbers clickable
+figure out what the hell to write

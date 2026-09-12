@@ -187,6 +187,10 @@ a {
     padding-bottom: 3rem;
 }
 
+.footer-content a:hover{
+    text-decoration:underline;
+}
+
 .site-footer h2,
 .site-footer h3 {
     margin-bottom: 0.75rem;
