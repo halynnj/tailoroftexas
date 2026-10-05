@@ -165,6 +165,54 @@ a {
     text-decoration: underline;
 }
 
+/* =========================
+   FAQ
+   ========================= */
+
+.faq {
+    padding: 80px 0;
+}
+
+.faq-item {
+    border-bottom: 1px solid #ddd;
+}
+
+.faq-question {
+    width: 100%;
+    padding: 1.5rem 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: none;
+    border: none;
+
+    font-family: inherit;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: left;
+
+    cursor: pointer;
+}
+
+.faq-question span {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.faq-question:hover {
+    color: #555;
+}
+
+.faq-answer {
+    display: none;
+    padding: 0 3rem 1.5rem 0;
+}
+
+.faq-answer p {
+    color: #555;
+}
 
 /* =========================
    Buttons
